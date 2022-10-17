@@ -1,0 +1,361 @@
+{
+  "id" : "3ota45j8tbx332daufr3vp35ad",
+  "available" : "2022-05-18",
+  "date" : {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-05-19T09:15:33.932Z"
+  },
+  "dateSubmitted" : {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-05-18T12:32:16.539Z"
+  },
+  "description" : "A simple simulation model used to investigate the use of intrinsic traits as a means to resolve spatial interference between 2 or more agents passing back and forth along a route with narrow tunnels. The model is written in python.",
+  "extent" : {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "71217"
+  },
+  "hasFormat" : {
+    "id" : "3ota45j8tbx332daufr3vp35ad/3ota45j8tbx332daufr3vp35ad.zip",
+    "format" : "application/zip"
+  },
+  "hasPart" : [ {
+    "id" : "3ota45j8tbx332daufr3vp35ad/readme.txt",
+    "extent" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2181"
+    },
+    "format" : "text/plain; charset=windows-1252",
+    "label" : "readme.txt",
+    "sha1" : "99b430982f08e7d77168383f7a8bd073fe8df7c6"
+  }, {
+    "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel",
+    "hasPart" : [ {
+      "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/config.py",
+      "extent" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+        "@value" : "9306"
+      },
+      "format" : "text/plain; charset=windows-1252",
+      "label" : "config.py",
+      "sha1" : "49158daa7943d1a3c6ac111821311152a55a82b1"
+    }, {
+      "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/runMultipleSimulations.py",
+      "extent" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+        "@value" : "974"
+      },
+      "format" : "text/plain; charset=windows-1252",
+      "label" : "runMultipleSimulations.py",
+      "sha1" : "2e9467a8c2284e1808ba104e8b1c121fcc84cee8"
+    }, {
+      "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/simulation.py",
+      "extent" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+        "@value" : "9781"
+      },
+      "format" : "text/plain; charset=windows-1252",
+      "label" : "simulation.py",
+      "sha1" : "aeb1362abac3680e57846defc3fb569bc900d421"
+    }, {
+      "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/runSimulation.py",
+      "extent" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+        "@value" : "2891"
+      },
+      "format" : "text/plain; charset=windows-1252",
+      "label" : "runSimulation.py",
+      "sha1" : "6d8485ac4971cd9f6dbadde9ee21ac54e1433eb7"
+    }, {
+      "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/Robot.py",
+      "extent" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+        "@value" : "42616"
+      },
+      "format" : "text/plain; charset=windows-1252",
+      "label" : "Robot.py",
+      "sha1" : "5537cd0297a99a4276f3a2757c296094fff91eed"
+    }, {
+      "id" : "3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/Agent.py",
+      "extent" : {
+        "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+        "@value" : "3468"
+      },
+      "format" : "text/plain; charset=windows-1252",
+      "label" : "Agent.py",
+      "sha1" : "93845608da1fe32cddbc8b6dfeb4ca67c2db4521"
+    } ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : {
+      "id" : "http://purl.org/dc/dcmitype/Collection"
+    },
+    "label" : "foragingIn1dModel"
+  } ],
+  "issued" : "2022",
+  "language" : "eng",
+  "license" : {
+    "id" : "http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/non-commercial-government-licence.htm"
+  },
+  "publisher" : "University of Bristol",
+  "source" : "RDSF1/projects/TB_PHASE/export/Data-Bris/CB_modelOfForagingInOneDimension",
+  "subjects" : [ "spatial conflict resolution", "foraging", "model", "python", "heterogeneity" ],
+  "title" : "A Model to Investigate Exploiting Intrinsic Multi-Agent Heterogeneity for Spatial Interference Reduction in an Idealised Foraging Task",
+  "type" : {
+    "id" : "http://purl.org/dc/dcmitype/Dataset"
+  },
+  "wasGeneratedBy" : [ {
+    "used" : "uk.ac.bristol.dundry.tasks.PreviewSymLinkTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:38.649Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:38.614Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.EnsurePublicPermissions",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:39.897Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:38.865Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.IndexDepositTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:34.285Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:34.178Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.EnsurePublicPermissions",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:52.138Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:52.109Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.GenerateApacheIndexes",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:38.834Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:38.706Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.DataCiteSubmit",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:37.701Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:35.318Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.StateChanger",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:39.988Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:39.962Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.MDExtractTika",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:35.18Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:35.079Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.PublishSymLinkTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:37.882Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:37.842Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.GenerateApacheIndexes",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:52.009Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:51.808Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.StateChanger",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:52.31Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:52.234Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.SyncTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:51.586Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:51.056Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.SyncTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:38.499Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T12:32:37.931Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.StateChanger",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:29.138Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.966Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.PreviewSymLinkTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:51.698Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:14:51.686Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.RemovePreviewSymLinkTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:34.089Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:34.063Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.GenerateApacheIndexes",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.659Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.444Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.PreviewSymLinkTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.339Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.2Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.SyncTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.086Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:27.484Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.ZipPreTask",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:38.015Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-19T09:15:38.009Z"
+    }
+  }, {
+    "used" : "uk.ac.bristol.dundry.tasks.EnsurePublicPermissions",
+    "wasEndedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.821Z"
+    },
+    "wasStartedAt" : {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2022-05-18T14:04:28.77Z"
+    }
+  } ],
+  "doi" : "10.5523/bris.3ota45j8tbx332daufr3vp35ad",
+  "base_directory" : "/RDSF1/projects/TB_PHASE",
+  "data_steward" : {
+    "id" : "http://data.bris.ac.uk/people/362234",
+    "label" : "Seth Bullock"
+  },
+  "depositor" : "zi18494",
+  "funding" : [ {
+    "funder" : {
+      "id" : "http://dx.doi.org/10.13039/501100000883",
+      "label" : "University of Bristol"
+    }
+  }, {
+    "identifier" : "EP/S515310/1",
+    "funder" : {
+      "id" : "http://dx.doi.org/10.13039/501100000266",
+      "label" : "Engineering and Physical Sciences Research Council"
+    }
+  }, {
+    "identifier" : "EP/R004757/1",
+    "funder" : {
+      "id" : "http://dx.doi.org/10.13039/501100000266",
+      "label" : "Engineering and Physical Sciences Research Council"
+    }
+  }, {
+    "funder" : {
+      "id" : "http://dx.doi.org/10.13039/501100007034",
+      "label" : "Thales Group"
+    }
+  } ],
+  "includes_third_party_data" : "0",
+  "organisation" : {
+    "id" : "http://data.bris.ac.uk/orgs/FENG"
+  },
+  "other_licences" : "0",
+  "project" : "TB_PHASE",
+  "state" : "Publishing",
+  "creators" : [ {
+    "id" : "http://data.bris.ac.uk/people/362234",
+    "label" : "Seth Bullock"
+  }, {
+    "id" : "http://data.bris.ac.uk/people/449206",
+    "label" : "Chris Bennett"
+  } ],
+  "@context" : "http://vocab.bris.ac.uk/datasets.json",
+  "@base" : "https://data.bris.ac.uk/datasets/"
+}

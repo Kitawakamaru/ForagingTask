@@ -1,0 +1,296 @@
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:opmv="http://purl.org/net/opmv/ns#"
+    xmlns:dctypes="http://purl.org/dc/dcmitype/"
+    xmlns:schema="http://schema.org/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:repo="http://vocab.bris.ac.uk/data/repository#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad">
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:38.614Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.PreviewSymLinkTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:38.649Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:license rdf:resource="http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/non-commercial-government-licence.htm"/>
+    <repo:depositor>zi18494</repo:depositor>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:38.865Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.EnsurePublicPermissions</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:39.897Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:34.178Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.IndexDepositTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:34.285Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:52.109Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.EnsurePublicPermissions</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:52.138Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <repo:other-licences>0</repo:other-licences>
+    <repo:funding rdf:parseType="Resource">
+      <repo:funder>
+        <rdf:Description rdf:about="http://dx.doi.org/10.13039/501100000883">
+          <rdfs:label>University of Bristol</rdfs:label>
+        </rdf:Description>
+      </repo:funder>
+    </repo:funding>
+    <dc:subject>spatial conflict resolution</dc:subject>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:38.706Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.GenerateApacheIndexes</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:38.834Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:available>2022-05-18</dc:available>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:35.318Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.DataCiteSubmit</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:37.701Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-05-19T09:15:33.932Z</dc:date>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:39.962Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.StateChanger</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:39.988Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <bibo:doi>10.5523/bris.3ota45j8tbx332daufr3vp35ad</bibo:doi>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:35.079Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.MDExtractTika</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:35.18Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:creator rdf:parseType="Collection">
+      <rdf:Description rdf:about="http://data.bris.ac.uk/people/362234">
+        <rdfs:label>Seth Bullock</rdfs:label>
+      </rdf:Description>
+      <rdf:Description rdf:about="http://data.bris.ac.uk/people/449206">
+        <rdfs:label>Chris Bennett</rdfs:label>
+      </rdf:Description>
+    </dc:creator>
+    <dc:hasPart>
+      <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/readme.txt">
+        <rdfs:label>readme.txt</rdfs:label>
+        <dc:format>text/plain; charset=windows-1252</dc:format>
+        <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >2181</dc:extent>
+        <foaf:sha1>99b430982f08e7d77168383f7a8bd073fe8df7c6</foaf:sha1>
+      </rdf:Description>
+    </dc:hasPart>
+    <repo:funding rdf:parseType="Resource">
+      <repo:funder>
+        <rdf:Description rdf:about="http://dx.doi.org/10.13039/501100000266">
+          <rdfs:label>Engineering and Physical Sciences Research Council</rdfs:label>
+        </rdf:Description>
+      </repo:funder>
+      <schema:identifier>EP/S515310/1</schema:identifier>
+    </repo:funding>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:37.842Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.PublishSymLinkTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:37.882Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:publisher>University of Bristol</dc:publisher>
+    <dc:subject>foraging</dc:subject>
+    <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >71217</dc:extent>
+    <dc:language>eng</dc:language>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:51.808Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.GenerateApacheIndexes</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:52.009Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:52.234Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.StateChanger</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:52.31Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:51.056Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.SyncTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:51.586Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <repo:funding rdf:parseType="Resource">
+      <repo:funder rdf:resource="http://dx.doi.org/10.13039/501100000266"/>
+      <schema:identifier>EP/R004757/1</schema:identifier>
+    </repo:funding>
+    <repo:project>TB_PHASE</repo:project>
+    <dc:hasFormat>
+      <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/3ota45j8tbx332daufr3vp35ad.zip">
+        <dc:format>application/zip</dc:format>
+      </rdf:Description>
+    </dc:hasFormat>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:37.931Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.SyncTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T12:32:38.499Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:source>RDSF1/projects/TB_PHASE/export/Data-Bris/CB_modelOfForagingInOneDimension</dc:source>
+    <repo:organisation rdf:resource="http://data.bris.ac.uk/orgs/FENG"/>
+    <dc:hasPart>
+      <dctypes:Collection rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel">
+        <rdfs:label>foragingIn1dModel</rdfs:label>
+        <dc:hasPart>
+          <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/config.py">
+            <rdfs:label>config.py</rdfs:label>
+            <dc:format>text/plain; charset=windows-1252</dc:format>
+            <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >9306</dc:extent>
+            <foaf:sha1>49158daa7943d1a3c6ac111821311152a55a82b1</foaf:sha1>
+          </rdf:Description>
+        </dc:hasPart>
+        <dc:hasPart>
+          <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/runMultipleSimulations.py">
+            <rdfs:label>runMultipleSimulations.py</rdfs:label>
+            <dc:format>text/plain; charset=windows-1252</dc:format>
+            <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >974</dc:extent>
+            <foaf:sha1>2e9467a8c2284e1808ba104e8b1c121fcc84cee8</foaf:sha1>
+          </rdf:Description>
+        </dc:hasPart>
+        <dc:hasPart>
+          <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/simulation.py">
+            <rdfs:label>simulation.py</rdfs:label>
+            <dc:format>text/plain; charset=windows-1252</dc:format>
+            <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >9781</dc:extent>
+            <foaf:sha1>aeb1362abac3680e57846defc3fb569bc900d421</foaf:sha1>
+          </rdf:Description>
+        </dc:hasPart>
+        <dc:hasPart>
+          <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/runSimulation.py">
+            <rdfs:label>runSimulation.py</rdfs:label>
+            <dc:format>text/plain; charset=windows-1252</dc:format>
+            <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >2891</dc:extent>
+            <foaf:sha1>6d8485ac4971cd9f6dbadde9ee21ac54e1433eb7</foaf:sha1>
+          </rdf:Description>
+        </dc:hasPart>
+        <dc:hasPart>
+          <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/Robot.py">
+            <rdfs:label>Robot.py</rdfs:label>
+            <dc:format>text/plain; charset=windows-1252</dc:format>
+            <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >42616</dc:extent>
+            <foaf:sha1>5537cd0297a99a4276f3a2757c296094fff91eed</foaf:sha1>
+          </rdf:Description>
+        </dc:hasPart>
+        <dc:hasPart>
+          <rdf:Description rdf:about="https://data.bris.ac.uk/datasets/3ota45j8tbx332daufr3vp35ad/foragingIn1dModel/Agent.py">
+            <rdfs:label>Agent.py</rdfs:label>
+            <dc:format>text/plain; charset=windows-1252</dc:format>
+            <dc:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+            >3468</dc:extent>
+            <foaf:sha1>93845608da1fe32cddbc8b6dfeb4ca67c2db4521</foaf:sha1>
+          </rdf:Description>
+        </dc:hasPart>
+      </dctypes:Collection>
+    </dc:hasPart>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.966Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.StateChanger</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:29.138Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:51.686Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.PreviewSymLinkTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:14:51.698Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:subject>model</dc:subject>
+    <dc:title>A Model to Investigate Exploiting Intrinsic Multi-Agent Heterogeneity for Spatial Interference Reduction in an Idealised Foraging Task</dc:title>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:34.063Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.RemovePreviewSymLinkTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:34.089Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <repo:state>Publishing</repo:state>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.444Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.GenerateApacheIndexes</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.659Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <repo:data-steward rdf:resource="http://data.bris.ac.uk/people/362234"/>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.2Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.PreviewSymLinkTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.339Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <repo:includes-third-party-data>0</repo:includes-third-party-data>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:27.484Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.SyncTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.086Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:subject>python</dc:subject>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:38.009Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.ZipPreTask</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-19T09:15:38.015Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:dateSubmitted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2022-05-18T12:32:16.539Z</dc:dateSubmitted>
+    <opmv:wasGeneratedBy rdf:parseType="Resource">
+      <opmv:wasStartedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.77Z</opmv:wasStartedAt>
+      <opmv:used>uk.ac.bristol.dundry.tasks.EnsurePublicPermissions</opmv:used>
+      <opmv:wasEndedAt rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2022-05-18T14:04:28.821Z</opmv:wasEndedAt>
+    </opmv:wasGeneratedBy>
+    <dc:issued>2022</dc:issued>
+    <dc:subject>heterogeneity</dc:subject>
+    <repo:base-directory>/RDSF1/projects/TB_PHASE</repo:base-directory>
+    <dc:description>A simple simulation model used to investigate the use of intrinsic traits as a means to resolve spatial interference between 2 or more agents passing back and forth along a route with narrow tunnels. The model is written in python.</dc:description>
+    <repo:funding rdf:parseType="Resource">
+      <repo:funder>
+        <rdf:Description rdf:about="http://dx.doi.org/10.13039/501100007034">
+          <rdfs:label>Thales Group</rdfs:label>
+        </rdf:Description>
+      </repo:funder>
+    </repo:funding>
+  </rdf:Description>
+</rdf:RDF>
