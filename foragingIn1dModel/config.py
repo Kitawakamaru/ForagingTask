@@ -50,8 +50,8 @@ class Config:
         
         self.EXPERIMENT_NUMBER = 1
         self.DT = 0.5 #time step interval of the simulation (effectively this just scales TIME_LIMIT by 1/DT)
-        self.N_REPEATS = 10 #How many times to repeate the simulation.  Each simulation is the same except agents start in different positions along the route
-        self.DV = 10 #set to either 5 or 10, changes the range of speeds in the population (the level of disparity between the agents)
+        self.N_REPEATS = 1 #How many times to repeate the simulation.  Each simulation is the same except agents start in different positions along the route
+        self.DV = 5 #set to either 5 or 10, changes the range of speeds in the population (the level of disparity between the agents)
 
         #these are set by generateConfig()
         self.DETECTIONRANGE = 0
