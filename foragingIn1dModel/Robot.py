@@ -20,7 +20,8 @@ class RobotLog():
         self.n_tunnel_exit = 0
         self.n_t_visits_home = []
         #[add]derc point
-        self.n_derc_point_lv1 = 0
+        self.n_derc_recieved_lv1 = 0
+        self.n_derc_send_lv1 = 0
 
 
 
@@ -36,19 +37,19 @@ class RobotLog():
         print(f'n_tunnel_entry: {self.n_tunnel_entry}')
         print(f'n_tunnel_exit: {self.n_tunnel_exit}')
         #[add]
-        print(f'n_derc_point_lv1: {self.n_derc_point_lv1}')
+        print(f'n_derc_recieved_lv1: {self.n_derc_recieved_lv1}')
+        print(f'n_derc_gave_lv1: {self.n_derc_send_lv1}')
         
 
 
     #[add]
     def getLog(self, cfg):
-        print(self.n_derc_point_lv1)
         header = ['ticks_in_task_state', 'ticks_in_social_state', 'ticks_in_terrain_state', 'n_visits_to_food', 
         'n_visits_to_home', 'n_ticks_not_moving', 'n_total_ticks', 'n_success_tunnel_passages', 'n_fail_tunnel_passages',
-        'n_tunnel_entry', 'n_tunnel_exit', 'n_derc_point_lv1']
+        'n_tunnel_entry', 'n_tunnel_exit', 'n_derc_recieved_lv1', 'n_derc_send_lv1']
         data =  [self.ticks_in_task_state, self.ticks_in_social_state, self.ticks_in_terrain_state, self.n_visits_to_food,
         self.n_visits_to_home, self.n_ticks_not_moving, cfg.TIME_LIMIT/cfg.DT, self.n_passages_through_tunnel_success, 
-        self.n_passages_through_tunnel_fail, self.n_tunnel_entry, self.n_tunnel_exit, self.n_derc_point_lv1]
+        self.n_passages_through_tunnel_fail, self.n_tunnel_entry, self.n_tunnel_exit, self.n_derc_recieved_lv1, self.n_derc_send_lv1]
         return header, data
 
 
@@ -96,8 +97,10 @@ class Robot(Agent):
         self.time_stationary = 0
 
         #[add]Derc point
-        self.derc_point_lv1 = 0
-        self.derc_point_lv2 = 0
+        self.derc_recieved_lv1 = 0
+        self.derc_send_lv1 = 0
+        self.derc_recieved_lv2 = 0
+        self.derc_send_lv2 = 0
 
         #state at t+dt
         self.next_task_state = self.task_state 
@@ -184,7 +187,7 @@ class Robot(Agent):
 
 
 
-    def updateLog(self, time_now, food_collected_b, visited_home_b, stationary_b, tunnel_entry_b, tunnel_exit_b, success_passage, fail_passage, derc_point_lv1):
+    def updateLog(self, time_now, food_collected_b, visited_home_b, stationary_b, tunnel_entry_b, tunnel_exit_b, success_passage, fail_passage, derc_recieved_lv1):
         '''stores and updates useful counts about what the agent has done in the world
         '''
         L = self.log
@@ -203,8 +206,8 @@ class Robot(Agent):
         L.n_tunnel_entry += tunnel_entry_b
         L.n_tunnel_exit += tunnel_exit_b
         #[add]log for derc point
-        L.n_derc_point_lv1 += derc_point_lv1
-        #print('id = ', self.m_id,'derc point = ', L.n_derc_point_lv1)
+        L.n_derc_recieved_lv1 += derc_recieved_lv1
+        L.n_derc_send_lv1 = self.derc_send_lv1
         return
     #end function
 
@@ -741,7 +744,7 @@ class Robot(Agent):
     def updateDercPointLevel1(self, cfg, tunnel_rect):
 
         robots = self.robots
-        new_derc_point_lv1 = 0
+        new_derc_recieved_lv1 = 0
 
         [exit_tunnel_b, side] = self.isExitTunnel(cfg, tunnel_rect)
         #when the agent exit from tunnel, if the agent and the nearest agent in tunnel had entered from different entrance, 
@@ -760,12 +763,13 @@ class Robot(Agent):
                                 nearestrobot_front = robot
                         if ( (self.tunnel_state[0]==1 and nearestrobot_front.tunnel_state[1]==1) or 
                              (self.tunnel_state[1]==1 and nearestrobot_front.tunnel_state[0]==1) ):
-                            new_derc_point_lv1 += 1
+                            new_derc_recieved_lv1 += 1
+                            #add poin to the agent who send signal
+                            nearestrobot_front.derc_send_lv1 += 1
                             #debug
                             #print('id', str(self.m_id), 'recieved')
-        #print('Derc point is', new_derc_point_lv1)
 
-        return new_derc_point_lv1
+        return new_derc_recieved_lv1
     #end function
 
 
@@ -944,7 +948,7 @@ class Robot(Agent):
         [success_passage, fail_passage, new_tunnel_state, tunnel_entry_b, tunnel_exit_b] = self.updateTunnelPassageCount(cfg, self.tunnel_rect)
 
         #[add]calculate derc point
-        derc_point_lv1 = self.updateDercPointLevel1(cfg, self.tunnel_rect)
+        derc_recieved_lv1 = self.updateDercPointLevel1(cfg, self.tunnel_rect)
         
         #after updating the counts, clear the tunnel state
         self.tunnel_state = new_tunnel_state
@@ -965,7 +969,7 @@ class Robot(Agent):
 
         #update the log
         #[add]derc point
-        self.updateLog(time_now, collected_food_b, returned_food_b, not_move_b, tunnel_entry_b, tunnel_exit_b, success_passage, fail_passage, derc_point_lv1)
+        self.updateLog(time_now, collected_food_b, returned_food_b, not_move_b, tunnel_entry_b, tunnel_exit_b, success_passage, fail_passage, derc_recieved_lv1)
         return collected_food_b
     #end function
 

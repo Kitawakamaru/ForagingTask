@@ -48,7 +48,7 @@ class Config:
         self.RES = (1280,720) #the size of the window when DRAWSCREEN is True
         self.HOME_POSITION = (40+50,360)
         
-        self.EXPERIMENT_NUMBER = 1
+        self.EXPERIMENT_NUMBER = 2
         self.DT = 0.5 #time step interval of the simulation (effectively this just scales TIME_LIMIT by 1/DT)
         self.N_REPEATS = 1 #How many times to repeate the simulation.  Each simulation is the same except agents start in different positions along the route
         self.DV = 5 #set to either 5 or 10, changes the range of speeds in the population (the level of disparity between the agents)
