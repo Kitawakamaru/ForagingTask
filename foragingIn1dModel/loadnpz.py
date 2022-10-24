@@ -32,7 +32,7 @@ for j in range(7):
 '''
 
 #code for multiple files
-path_dir = R"C:\Users\川北　拓穂\Desktop\採餌タスクプログラム\foragingIn1dModel"
+path_dir = R"C:\Users\t94ka\OneDrive\デスクトップ\Foragin Task\ForagingTask\foragingIn1dModel"
 files = os.listdir(path_dir)
 files_npz = []
 
@@ -59,6 +59,7 @@ for file_npz in files_npz:
             print(data[j, i, 8])
             print(data[j, i, 11])
             print(data[j, i, 12])
-    
+            
+
 
 

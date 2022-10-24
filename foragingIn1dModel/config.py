@@ -20,6 +20,8 @@ class Config:
         
         self.IMAGE_NAMES = ['train','convertable','bev']
         self.IMAGE_COLOURS = ['g','y','r']
+        #parameter whether if introduce derc
+        self.AGGRESSION_DERC_B = True
 
         #define some useful colours
         self.BLACK = 0, 0, 0
@@ -43,13 +45,13 @@ class Config:
         self.TUNNEL_WIDTH = 300
         self.AGENT_SIZE = 10 
         self.N_ROBOTS = 5
-        self.TIME_LIMIT = 150*10 #the total length of the simulation!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        self.TIME_LIMIT = 750*10 #the total length of the simulation!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         self.TICK_RATE = 50 #the speed of the simulation, setting a lower number slows it down (useful when DRAWSCREEN is True).  Has no effect when DRAWSCREEN is False
         self.RES = (1280,720) #the size of the window when DRAWSCREEN is True
         self.HOME_POSITION = (40+50,360)
         
-        self.EXPERIMENT_NUMBER = 2
-        self.DT = 0.5 #time step interval of the simulation (effectively this just scales TIME_LIMIT by 1/DT)
+        self.EXPERIMENT_NUMBER = 1
+        self.DT = 0.1 #time step interval of the simulation (effectively this just scales TIME_LIMIT by 1/DT)
         self.N_REPEATS = 1 #How many times to repeate the simulation.  Each simulation is the same except agents start in different positions along the route
         self.DV = 5 #set to either 5 or 10, changes the range of speeds in the population (the level of disparity between the agents)
 

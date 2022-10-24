@@ -51,7 +51,7 @@ def run_simulation(robot_range, aggro_range):
 #end function
 
 
-def main(robot_range=range(2,8), aggro_range = [0,1,2,3]):
+def main(robot_range=range(2,8), aggro_range = [0,1,2,3,4,5,6,7]):
     '''Runs a set of simulations where each is a unique permutation of the inputs
     inputs:
     robot_range: a list where each entry is the #agents to simulation (accepted values: 2 to 9)
