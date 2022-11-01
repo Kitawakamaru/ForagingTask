@@ -308,7 +308,6 @@ class Robot(Agent):
     #[add]modified version for introducing derc
     def calcAggression(self, cfg, agg_type = []):
         if cfg.AGGRESSION_DERC_B:
-            
             aggression_temp = 0
             if agg_type == cfg.AGGRESSION_TYPES['random']:
                 import random
@@ -787,6 +786,7 @@ class Robot(Agent):
                              (self.tunnel_state[1]==1 and nearestrobot_front.tunnel_state[0]==1) ):
                             #add poin to the agent who recieved signal
                             self.derc_recieved_lv1 += 1
+                            print('id', nearestrobot_front.m_id, 'got Derc point')
                             #add poin to the agent who send signal
                             nearestrobot_front.derc_send_lv1 += 1
     

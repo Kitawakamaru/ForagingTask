@@ -23,7 +23,6 @@ else:
 if args.Number:
     number = [int(n) for n in args.Number] 
 else:
-    #number = [2,3,4,5,6,7]
-    number = [7]
+    number = [2]
 
 runSimulation.main(robot_range=number, aggro_range = scenario)
